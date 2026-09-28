@@ -1,0 +1,32 @@
+node_modules/
+dist/
+.next/
+out/
+.vercel/
+*.tsbuildinfo
+*.log
+*.err
+.DS_Store
+Thumbs.db
+
+# Materiais antigos/locais que não fazem parte do site final publicado.
+docs/
+ramflow/
+src/components/effects/
+src/components/forms/
+src/components/layout/
+src/components/progress/
+src/components/providers/
+src/components/ui/
+src/content/
+src/features/
+src/hooks/
+src/services/
+src/types/
+src/utils/
+
+# Assets intermediários preservados localmente, mas fora da versão publicada.
+public/images/francielen-hero.jpg
+public/images/francielen-logo-completo.jpg
+public/images/francielen-logo-horizontal.jpg
+public/images/francielen-logo-integrado.png

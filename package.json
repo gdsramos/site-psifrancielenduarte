@@ -1,0 +1,30 @@
+{
+  "name": "site-psifrancielenduarte",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./node_modules/next/dist/bin/next dev --hostname 127.0.0.1 --webpack",
+    "build": "node ./node_modules/typescript/bin/tsc --noEmit && node ./node_modules/next/dist/bin/next build --webpack",
+    "start": "node ./node_modules/next/dist/bin/next start --hostname 127.0.0.1",
+    "typecheck": "node ./node_modules/typescript/bin/tsc --noEmit"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.4",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "latest",
+    "next": "^16.2.5",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.75.0",
+    "sonner": "^2.0.7",
+    "tailwindcss": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "latest"
+  }
+}
