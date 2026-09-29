@@ -1,3 +1,6 @@
+const githubPagesBasePath = process.env.GITHUB_ACTIONS === "true" ? "/site-psifrancielenduarte" : "";
+const withBasePath = (path: string) => `${githubPagesBasePath}${path}`;
+
 export const profile = {
   professionalName: "Francielen Duarte",
   fullName: "Francielen Duarte da Silva",
@@ -7,9 +10,9 @@ export const profile = {
   instagramHandle: "@Psifrancielend",
   instagramUrl: "https://www.instagram.com/psifrancielend/",
   linkedinUrl: "https://www.linkedin.com/in/francielen-duarte-8b51751b5/",
-  image: "/images/francielen-hero-centered.jpg",
-  aboutImage: "/images/francielen-sobre-final.jpg",
-  logoComplete: "/images/francielen-logo-page.png",
+  image: withBasePath("/images/francielen-hero-centered.jpg"),
+  aboutImage: withBasePath("/images/francielen-sobre-final.jpg"),
+  logoComplete: withBasePath("/images/francielen-logo-page.png"),
   whatsappUrl:
     "https://wa.me/5553984669378?text=Ol%C3%A1%2C%20Fran!%20Vi%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20atendimento.",
 } as const;
