@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node ./node_modules/next/dist/bin/next dev --hostname 127.0.0.1 --webpack",
-    "build": "node ./node_modules/typescript/bin/tsc --noEmit && node ./node_modules/next/dist/bin/next build --webpack",
+    "build": "node ./node_modules/next/dist/bin/next build --webpack",
     "start": "node ./node_modules/next/dist/bin/next start --hostname 127.0.0.1",
     "typecheck": "node ./node_modules/typescript/bin/tsc --noEmit"
   },
